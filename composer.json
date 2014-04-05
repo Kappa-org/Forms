@@ -1,6 +1,6 @@
 {
 	"name": "kappa/forms",
-	"description": "",
+	"description": "Collection of custom input controls",
 	"keywords": ["Kappa", "Nette", "forms", "form factory"],
 	"homepage": "https://github.com/Kappa-org/Forms",
 	"license": ["BSD-3-Clause"],

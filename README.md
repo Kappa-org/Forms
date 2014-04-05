@@ -1,5 +1,7 @@
 # Kappa\Forms
 
+Collection of custom input controls
+
 ## Requirements
 
 * PHP 5.3.3 or higher
