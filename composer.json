@@ -1,0 +1,34 @@
+{
+	"name": "kappa/forms",
+	"description": "",
+	"keywords": ["Kappa", "Nette", "forms", "form factory"],
+	"homepage": "https://github.com/Kappa-org/Forms",
+	"license": ["BSD-3-Clause"],
+	"type": "library",
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "Ondřej Záruba",
+			"homepage": "http://zaruba-ondrej.cz"
+		}
+	],
+	"support": {
+		"email": "zarubaondra@gmail.com",
+		"issues": "https://github.com/Kappa-org/Forms/issues"
+	},
+	"require": {
+		"nette/application": "2.2.*",
+		"nette/forms": "2.2.*"
+	},
+	"require-dev": {
+		"kappa/tester": "1.1.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Kappa": "src/"
+		},
+		"classmap": [
+			"src/Kappa/Forms/exceptions.php"
+		]
+	}
+}
