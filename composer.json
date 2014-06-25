@@ -17,10 +17,10 @@
 		"issues": "https://github.com/Kappa-org/Forms/issues"
 	},
 	"require": {
-		"nette/forms": "2.2.*"
+		"nette/forms": "~2.2"
 	},
 	"require-dev": {
-		"kappa/tester": "1.1.*"
+		"kappa/tester": "~1.1"
 	},
 	"autoload": {
 		"psr-0": {
