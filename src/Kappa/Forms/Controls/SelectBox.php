@@ -25,9 +25,11 @@ class SelectBox extends \Nette\Forms\Controls\SelectBox
 	 */
 	public function removeItem($identifier)
 	{
-		if (!array_key_exists($identifier, $this->items)) {
+		$items = $this->getItems();
+		if (!array_key_exists($identifier, $items)) {
 			throw new ItemNotFoundException("Item with '{$identifier}' index has not been found");
 		}
-		unset($this->items[$identifier]);
+		unset($items[$identifier]);
+		$this->setItems($items);
 	}
 }
